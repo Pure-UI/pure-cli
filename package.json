@@ -1,0 +1,17 @@
+{
+  "name": "pure-cli",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint lib"
+  },
+  "eslintConfig": {
+    "extends": "mo/esnext"
+  },
+  "author": "fengzilong <fengzilong1992@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.8.1",
+    "eslint-config-mo": "latest"
+  }
+}
