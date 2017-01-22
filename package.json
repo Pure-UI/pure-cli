@@ -2,6 +2,9 @@
   "name": "pure-cli",
   "version": "0.1.0",
   "main": "lib/index.js",
+  "bin": {
+    "pure": "bin/pure.js"
+  },
   "scripts": {
     "lint": "eslint lib"
   },
@@ -12,6 +15,7 @@
   "license": "MIT",
   "devDependencies": {
     "eslint": "^3.8.1",
-    "eslint-config-mo": "latest"
+    "eslint-config-mo": "latest",
+    "webpack": "^1.14.0"
   }
 }
