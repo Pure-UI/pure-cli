@@ -26,8 +26,11 @@
     "regularjs": "^0.4.4",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
-    "webpack": "^1.14.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "less": "^2.7.2",
+    "less-loader": "^2.2.3",
+    "node-libs-browser": "^0.6.0",
+    "webpack": "^1.9.11",
     "yargs": "^6.6.0"
-  },
-  "devDependencies": {}
+  }
 }
