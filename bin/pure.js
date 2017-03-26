@@ -12,15 +12,10 @@ const argv = yargs
 
 if ( argv.watch ) {
 	watch();
-} else if ( argv.bundle ) {
-	build( {
-		bundle: true,
-		entry: argv.entry,
-		name: argv.name,
-	} );
 } else {
 	build( {
-		bundle: false,
+		bundle: Boolean( argv.bundle ),
+		preferSource: Boolean( argv.preferSource ),
 		entry: argv.entry,
 		name: argv.name,
 	} );
