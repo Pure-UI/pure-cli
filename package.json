@@ -28,6 +28,7 @@
     "less": "^2.7.2",
     "less-loader": "^2.2.3",
     "node-libs-browser": "^0.6.0",
+    "postcss-loader": "^1.3.3",
     "pure-loader": "^1.0.2",
     "regularjs": "^0.4.4",
     "style-loader": "^0.13.1",
